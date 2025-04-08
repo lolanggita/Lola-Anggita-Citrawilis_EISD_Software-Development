@@ -8,5 +8,5 @@ function decryptChat(encrypted) {
         return char;
     }).join("");
 }
-// Test
-console.log(decryptChat("xfqfr bfmdz")); // "welcome back"
+
+console.log(decryptChat("xfqfr bfmdz"));

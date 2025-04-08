@@ -20,5 +20,5 @@ function recommendProducts(name) {
         .filter(p => !bought.includes(p.name))
         .map(p => p.name);
 }
-// Test
-console.log(recommendProducts("Rina")); // ["gitar", "kamera"]
+
+console.log(recommendProducts("Rina"));

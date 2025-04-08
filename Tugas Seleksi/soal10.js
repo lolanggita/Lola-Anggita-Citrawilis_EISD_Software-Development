@@ -13,5 +13,5 @@ function calculateChange(totalPaid, totalPrice) {
     
     return result;
 }
-// Test
-console.log(calculateChange(10000, 7500)); // { "2000": 1, "500": 1 }
+
+console.log(calculateChange(10000, 7500));

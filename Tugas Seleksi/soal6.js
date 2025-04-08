@@ -16,6 +16,5 @@ function calculateBill(order) {
         return subtotal * 1.15; // Add 15% transaction tax
 }
 
-// Test
 const rehanOrder = { "Ayam Bakar": 2, "Es teh": 1 };
-console.log(calculateBill(rehanOrder).toFixed(2)); // 60475.00
+console.log(calculateBill(rehanOrder).toFixed(2));
